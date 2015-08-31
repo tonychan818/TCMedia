@@ -7,9 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D7E0664E58F1E0920F7475 /* Pods_TCMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D78900EB623214749B187F5 /* Pods_TCMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EA0B31CA1B94B1140096C84B /* dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0B31C91B94B1140096C84B /* dummy.m */; };
+		EA0B31CD1B94B12F0096C84B /* dummy2.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0B31CB1B94B12F0096C84B /* dummy2.h */; };
+		EA0B31CE1B94B12F0096C84B /* dummy2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0B31CC1B94B12F0096C84B /* dummy2.m */; };
+		EA0B31D41B94BA8A0096C84B /* SCRecordSessionManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B31D31B94BA8A0096C84B /* SCRecordSessionManager2.swift */; };
+		EA0B31D71B94BB640096C84B /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0B31D61B94BB640096C84B /* close@2x.png */; };
+		EA0B31D91B94BB680096C84B /* keyboard-backspace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0B31D81B94BB680096C84B /* keyboard-backspace@2x.png */; };
+		EA0B31DB1B94BB6D0096C84B /* pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0B31DA1B94BB6D0096C84B /* pointer@2x.png */; };
+		EA0B31DD1B94BB720096C84B /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0B31DC1B94BB720096C84B /* replay@2x.png */; };
 		EA3133D31B94729C001E8E32 /* TCMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3133D21B94729C001E8E32 /* TCMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA3133D91B94729C001E8E32 /* TCMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3133CD1B94729C001E8E32 /* TCMedia.framework */; };
 		EA3133E01B94729C001E8E32 /* TCMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133DF1B94729C001E8E32 /* TCMediaTests.swift */; };
+		EA3133F01B947444001E8E32 /* VCCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133EC1B947444001E8E32 /* VCCamera.swift */; };
+		EA3133F11B947444001E8E32 /* VCCamera.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3133ED1B947444001E8E32 /* VCCamera.xib */; };
+		EA3133F21B947444001E8E32 /* VCTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133EE1B947444001E8E32 /* VCTrim.swift */; };
+		EA3133F31B947444001E8E32 /* VCTrim.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3133EF1B947444001E8E32 /* VCTrim.xib */; };
+		EA3133FD1B94744F001E8E32 /* PTVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133F41B94744F001E8E32 /* PTVideo.swift */; };
+		EA3133FE1B94744F001E8E32 /* PTVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133F51B94744F001E8E32 /* PTVideoProcessor.swift */; };
+		EA3133FF1B94744F001E8E32 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133F61B94744F001E8E32 /* Log.swift */; };
+		EA3134001B94744F001E8E32 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133F71B94744F001E8E32 /* UIColorExtension.swift */; };
+		EA3134011B94744F001E8E32 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133F81B94744F001E8E32 /* UIViewExtension.swift */; };
+		EA3134021B94744F001E8E32 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133F91B94744F001E8E32 /* UICollectionViewExtension.swift */; };
+		EA3134031B94744F001E8E32 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3133FA1B94744F001E8E32 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +43,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D78900EB623214749B187F5 /* Pods_TCMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09A856C7AD1DC008CCC254 /* Pods-TCMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCMedia/Pods-TCMedia.release.xcconfig"; sourceTree = "<group>"; };
+		6059D01648E60A98A1C1C201 /* Pods-TCMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCMedia/Pods-TCMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0B31C11B94AE270096C84B /* libSVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSVProgressHUD.a; path = "Pods/../build/Debug-iphoneos/libSVProgressHUD.a"; sourceTree = "<group>"; };
+		EA0B31C31B94AEF10096C84B /* libSVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSVProgressHUD.a; path = "Pods/../build/Debug-iphoneos/libSVProgressHUD.a"; sourceTree = "<group>"; };
+		EA0B31C51B94AEF40096C84B /* libSCRecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSCRecorder.a; path = "Pods/../build/Debug-iphoneos/libSCRecorder.a"; sourceTree = "<group>"; };
+		EA0B31C81B94B1140096C84B /* dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummy.h; sourceTree = "<group>"; };
+		EA0B31C91B94B1140096C84B /* dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummy.m; sourceTree = "<group>"; };
+		EA0B31CB1B94B12F0096C84B /* dummy2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummy2.h; sourceTree = "<group>"; };
+		EA0B31CC1B94B12F0096C84B /* dummy2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummy2.m; sourceTree = "<group>"; };
+		EA0B31D31B94BA8A0096C84B /* SCRecordSessionManager2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRecordSessionManager2.swift; sourceTree = "<group>"; };
+		EA0B31D61B94BB640096C84B /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		EA0B31D81B94BB680096C84B /* keyboard-backspace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard-backspace@2x.png"; sourceTree = "<group>"; };
+		EA0B31DA1B94BB6D0096C84B /* pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointer@2x.png"; sourceTree = "<group>"; };
+		EA0B31DC1B94BB720096C84B /* replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "replay@2x.png"; sourceTree = "<group>"; };
 		EA3133CD1B94729C001E8E32 /* TCMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3133D11B94729C001E8E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3133D21B94729C001E8E32 /* TCMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMedia.h; sourceTree = "<group>"; };
 		EA3133D81B94729C001E8E32 /* TCMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3133DE1B94729C001E8E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3133DF1B94729C001E8E32 /* TCMediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCMediaTests.swift; sourceTree = "<group>"; };
+		EA3133EC1B947444001E8E32 /* VCCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCCamera.swift; sourceTree = "<group>"; };
+		EA3133ED1B947444001E8E32 /* VCCamera.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCCamera.xib; sourceTree = "<group>"; };
+		EA3133EE1B947444001E8E32 /* VCTrim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTrim.swift; sourceTree = "<group>"; };
+		EA3133EF1B947444001E8E32 /* VCTrim.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCTrim.xib; sourceTree = "<group>"; };
+		EA3133F41B94744F001E8E32 /* PTVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTVideo.swift; sourceTree = "<group>"; };
+		EA3133F51B94744F001E8E32 /* PTVideoProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTVideoProcessor.swift; sourceTree = "<group>"; };
+		EA3133F61B94744F001E8E32 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		EA3133F71B94744F001E8E32 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		EA3133F81B94744F001E8E32 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		EA3133F91B94744F001E8E32 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		EA3133FA1B94744F001E8E32 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D7E0664E58F1E0920F7475 /* Pods_TCMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +97,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AA869820977F6B0F3DC2BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6059D01648E60A98A1C1C201 /* Pods-TCMedia.debug.xcconfig */,
+				4A09A856C7AD1DC008CCC254 /* Pods-TCMedia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA0E97040D0202EC36827FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B31C51B94AEF40096C84B /* libSCRecorder.a */,
+				EA0B31C31B94AEF10096C84B /* libSVProgressHUD.a */,
+				EA0B31C11B94AE270096C84B /* libSVProgressHUD.a */,
+				0D78900EB623214749B187F5 /* Pods_TCMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0B31D51B94BB540096C84B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B31D81B94BB680096C84B /* keyboard-backspace@2x.png */,
+				EA0B31DA1B94BB6D0096C84B /* pointer@2x.png */,
+				EA0B31D61B94BB640096C84B /* close@2x.png */,
+				EA0B31DC1B94BB720096C84B /* replay@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		EA3133C31B94729C001E8E32 = {
 			isa = PBXGroup;
 			children = (
 				EA3133CF1B94729C001E8E32 /* TCMedia */,
 				EA3133DC1B94729C001E8E32 /* TCMediaTests */,
 				EA3133CE1B94729C001E8E32 /* Products */,
+				2AA869820977F6B0F3DC2BDC /* Pods */,
+				DA0E97040D0202EC36827FD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +151,9 @@
 		EA3133CF1B94729C001E8E32 /* TCMedia */ = {
 			isa = PBXGroup;
 			children = (
+				EA0B31D51B94BB540096C84B /* Resources */,
+				EA3133EB1B94742C001E8E32 /* Untilty */,
+				EA3133EA1B947420001E8E32 /* ViewControllers */,
 				EA3133D21B94729C001E8E32 /* TCMedia.h */,
 				EA3133D01B94729C001E8E32 /* Supporting Files */,
 			);
@@ -81,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				EA3133D11B94729C001E8E32 /* Info.plist */,
+				EA0B31CB1B94B12F0096C84B /* dummy2.h */,
+				EA0B31CC1B94B12F0096C84B /* dummy2.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -90,6 +175,8 @@
 			children = (
 				EA3133DF1B94729C001E8E32 /* TCMediaTests.swift */,
 				EA3133DD1B94729C001E8E32 /* Supporting Files */,
+				EA0B31C81B94B1140096C84B /* dummy.h */,
+				EA0B31C91B94B1140096C84B /* dummy.m */,
 			);
 			path = TCMediaTests;
 			sourceTree = "<group>";
@@ -102,6 +189,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EA3133EA1B947420001E8E32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA3133EC1B947444001E8E32 /* VCCamera.swift */,
+				EA3133ED1B947444001E8E32 /* VCCamera.xib */,
+				EA3133EE1B947444001E8E32 /* VCTrim.swift */,
+				EA3133EF1B947444001E8E32 /* VCTrim.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA3133EB1B94742C001E8E32 /* Untilty */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B31D31B94BA8A0096C84B /* SCRecordSessionManager2.swift */,
+				EA3133F41B94744F001E8E32 /* PTVideo.swift */,
+				EA3133F51B94744F001E8E32 /* PTVideoProcessor.swift */,
+				EA3133F61B94744F001E8E32 /* Log.swift */,
+				EA3133F71B94744F001E8E32 /* UIColorExtension.swift */,
+				EA3133F81B94744F001E8E32 /* UIViewExtension.swift */,
+				EA3133F91B94744F001E8E32 /* UICollectionViewExtension.swift */,
+				EA3133FA1B94744F001E8E32 /* Constant.swift */,
+			);
+			name = Untilty;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3133D31B94729C001E8E32 /* TCMedia.h in Headers */,
+				EA0B31CD1B94B12F0096C84B /* dummy2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,10 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA3133E31B94729C001E8E32 /* Build configuration list for PBXNativeTarget "TCMedia" */;
 			buildPhases = (
+				021BB0640721877803665BC0 /* Check Pods Manifest.lock */,
 				EA3133C81B94729C001E8E32 /* Sources */,
 				EA3133C91B94729C001E8E32 /* Frameworks */,
 				EA3133CA1B94729C001E8E32 /* Headers */,
 				EA3133CB1B94729C001E8E32 /* Resources */,
+				6A17A13BB7CC34BFC3D8640C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +308,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0B31D71B94BB640096C84B /* close@2x.png in Resources */,
+				EA0B31DD1B94BB720096C84B /* replay@2x.png in Resources */,
+				EA0B31D91B94BB680096C84B /* keyboard-backspace@2x.png in Resources */,
+				EA3133F31B947444001E8E32 /* VCTrim.xib in Resources */,
+				EA0B31DB1B94BB6D0096C84B /* pointer@2x.png in Resources */,
+				EA3133F11B947444001E8E32 /* VCCamera.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,11 +326,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		021BB0640721877803665BC0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A17A13BB7CC34BFC3D8640C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCMedia/Pods-TCMedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA3133C81B94729C001E8E32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3133FE1B94744F001E8E32 /* PTVideoProcessor.swift in Sources */,
+				EA3133F21B947444001E8E32 /* VCTrim.swift in Sources */,
+				EA3134031B94744F001E8E32 /* Constant.swift in Sources */,
+				EA0B31CE1B94B12F0096C84B /* dummy2.m in Sources */,
+				EA3133FF1B94744F001E8E32 /* Log.swift in Sources */,
+				EA3133FD1B94744F001E8E32 /* PTVideo.swift in Sources */,
+				EA3134021B94744F001E8E32 /* UICollectionViewExtension.swift in Sources */,
+				EA3134011B94744F001E8E32 /* UIViewExtension.swift in Sources */,
+				EA3133F01B947444001E8E32 /* VCCamera.swift in Sources */,
+				EA3134001B94744F001E8E32 /* UIColorExtension.swift in Sources */,
+				EA0B31D41B94BA8A0096C84B /* SCRecordSessionManager2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0B31CA1B94B1140096C84B /* dummy.m in Sources */,
 				EA3133E01B94729C001E8E32 /* TCMediaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -272,6 +440,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -283,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -313,6 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -322,37 +493,72 @@
 		};
 		EA3133E41B94729C001E8E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6059D01648E60A98A1C1C201 /* Pods-TCMedia.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SCRecorder\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"/**",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = TCMedia/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 			};
 			name = Debug;
 		};
 		EA3133E51B94729C001E8E32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A09A856C7AD1DC008CCC254 /* Pods-TCMedia.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SCRecorder\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"/**",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = TCMedia/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 			};
 			name = Release;
 		};
 		EA3133E71B94729C001E8E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6059D01648E60A98A1C1C201 /* Pods-TCMedia.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -364,12 +570,16 @@
 				INFOPLIST_FILE = TCMediaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		EA3133E81B94729C001E8E32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A09A856C7AD1DC008CCC254 /* Pods-TCMedia.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -377,6 +587,7 @@
 				INFOPLIST_FILE = TCMediaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -399,6 +610,7 @@
 				EA3133E51B94729C001E8E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA3133E61B94729C001E8E32 /* Build configuration list for PBXNativeTarget "TCMediaTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +619,7 @@
 				EA3133E81B94729C001E8E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

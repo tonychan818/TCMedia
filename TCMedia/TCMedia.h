@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "SCRecordSessionManager.h"
 
 //! Project version number for TCMedia.
 FOUNDATION_EXPORT double TCMediaVersionNumber;
@@ -16,4 +17,7 @@ FOUNDATION_EXPORT const unsigned char TCMediaVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TCMedia/PublicHeader.h>
 
+
+
+//#import "SCRecordSessionManager.h"
 
